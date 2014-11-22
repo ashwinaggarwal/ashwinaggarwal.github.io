@@ -1,0 +1,37 @@
+<div id="contactForm">
+  <div class="wrapper">
+    <div class="headerText">Let's move things forward together!</div>
+    <form name="contactForm" id="myForm" method="post" action="/contact">
+      <div class="leftCol">
+        <div class="fancy-select">
+          <select name="subject" id="subject" class="" style="width: 1px; height: 1px; display: block; position: absolute; top: 0px; left: 0px; opacity: 0;">
+            <option value="" selected="">Subject *</option>
+            <option value='Hire Me'>Hire Me</option>
+            <option value='Press'>Press</option>
+            <option value='Other'>Other</option>
+          </select>
+          <div class="trigger" ng-click="toggleList($event); $event.stopPropagation();">Subject *</div>
+          <ul class="options hide toggleDropDowns" >
+            <li data-raw-value="Hire Me" class="" ng-click="updateTrigger('Hire Me')">Hire Me</li>
+            <li data-raw-value="Press" class="" ng-click="updateTrigger('Press')">Press</li>
+            <li data-raw-value="Other" ng-click="updateTrigger('Other')">Other</li>
+          </ul>
+        </div>
+
+        <label for="prenom" id="youAre" disabled="">About you</label>
+
+        <input type="text" name="firstname" id="firstname" size="20" maxlength="40" class="required placeholder" placeholder="FIRST NAME *" required>
+<!--         <input type="text" name="lastname" id="lastname" size="20" maxlength="40" class="required" placeholder="LAST NAME *">
+        <input type="text" name="jobtitle" id="jobtitle" size="20" maxlength="40" class="required" placeholder="JOB TITLE">
+        <input type="text" name="company" id="company" size="20" maxlength="40" class="required" placeholder="COMPANY"> -->
+        <input type="email" name="email" id="email" size="20" maxlength="40" class="required" placeholder="EMAIL *" required>
+        <input type="tel" name="tel" id="tel" size="20" minlength="10" maxlength="40" class="required" placeholder="PHONE NUMBER *" required>
+      </div>
+      <div class="rightCol">
+        <label for="comments" disabled="">Your message</label>
+        <textarea name="comments" id="comments" cols="20" rows="4" class="required" placeholder="Enter your message *"></textarea>
+      </div>
+      <button class="btnSend progress-button" type="submit" data-style="rotate-back"><span class="progress-wrap"><span class="content">Confirm</span><span style="background:url('../images/716.GIF') no-repeat;height:20px;width:73px;background-size:100% 100%;display:block;margin:0 auto;"></span></span></button>
+    </form>
+  </div>
+</div>
