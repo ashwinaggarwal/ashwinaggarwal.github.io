@@ -1,25 +1,12 @@
-<!DOCTYPE html>
-<html lang="en" ng-app="mysite">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Ashwin Aggarwal</title>
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/styles.css" media='all'>
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="bower_components/angular/angular.min.js"></script>
-	<script src="bower_components/angular-route/angular-route.min.js"></script>
-	<script src="bower_components/angular-animate/angular-animate.min.js"></script>
-	<script src="scripts/app.min.js"></script>
-	<script>
-	$(function () { 
+<!DOCTYPE html><html lang="en" ng-app="mysite"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ashwin Aggarwal - Front End Developer</title><link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"><link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css"><link rel="stylesheet" href="css/styles.min.css" media="all"><script src="bower_components/jquery/dist/jquery.min.js"></script><script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script><script src="bower_components/angular/angular.min.js"></script><script src="bower_components/angular-route/angular-route.min.js"></script><script src="bower_components/angular-animate/angular-animate.min.js"></script><script src="scripts/app.min.js"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-29647688-1', 'auto');
+	ga('send', 'pageview');</script></head><body><header><nav class="nav-top"><div class="nav-top-left"><div class="title-image"></div><div class="title-name">A s h w i n &nbsp;&nbsp;&nbsp;A g g a r w a l</div></div><div class="nav-top-right"><div class="nav-top-right-icons"><div class="nav-top-right-icon"><a href="#/profile"><div class="icon-img fa fa-user"></div><div class="icon-text1"><span>About Me</span></div></a></div><div class="nav-top-right-icon"><a href="#/skills"><div class="icon-img fa fa-graduation-cap"></div><div class="icon-text2"><span>Skills</span></div></a></div><div class="nav-top-right-icon desktop"><a href="#/resume"><div class="icon-img fa fa-file-text-o"></div><div class="icon-text4"><span>Resume</span></div></a></div><div class="nav-top-right-icon tab"><a href="../assets/AshwinAggarwal.pdf"><div class="icon-img fa fa-file-text-o"></div><div class="icon-text4"><span>Resume</span></div></a></div><div class="nav-top-right-icon"><a href="#/contact"><div class="icon-img fa fa-paper-plane"></div><div class="icon-text5"><span>Contact Me</span></div></a></div></div></div></nav></header><div class="main-body"><div class="angular-starts-here" ng-view></div></div><footer><div id="sclz">Let's socialize</div><div><ul class="social"><a href="" title=""><li class="social-icon lnkd fa fa-linkedin" data-toggle="tooltip" data-placement="top" title="Connect with me"></li></a> <a href="" title=""><li class="social-icon gh fa fa-github" data-toggle="tooltip" data-placement="top" title="Fork me"></li></a> <a href="" title=""><li class="social-icon gp fa fa-google-plus" data-toggle="tooltip" data-placement="top" title="Lets be friends"></li></a> <a href="" title=""><li class="social-icon fb fa fa-facebook" data-toggle="tooltip" data-placement="top" title="Add me"></li></a></ul></div></footer><div id="resolution">Best viewed in Firefox and Chrome at 1920 X 1080 resolution.</div><script src="//localhost:35729/livereload.js"></script><script>$(function () { 
 		$("[data-toggle='tooltip']").tooltip(); 
-	});
-	</script>
-	<script>
-	$(document).ready(function(){ 
+	});</script><script>$(document).ready(function(){ 
 		$(window).scroll(function(){
 			var $header = $('header');
 			if($(this).scrollTop()>1){
@@ -31,92 +18,4 @@
 					$header.removeClass('fixed');
 			}
 		}); 
-	});
-	</script>	
-</head>
-<body>
-	<header>
-		<nav class="nav-top">
-			<div class="nav-top-left">
-				<div class="title-image"></div>
-				<div class="title-name">A s h w i n &nbsp;&nbsp;&nbsp;A g g a r w a l</div>
-			</div>
-			<div class="nav-top-right">
-				<div class="nav-top-right-icons">
-					<div class="nav-top-right-icon">
-						<a href="#/profile">
-							<div class="icon-img fa fa-user"></div>
-							<div class="icon-text1"><span>About Me</span></div>
-						</a>
-						
-					</div>
-<!-- 					<div class="nav-top-right-icon">
-						<a href="">
-<div class="icon-img fa fa-graduation-cap"></div>
-						<div class="icon-text2"><span href="#/profile">Profile</span></div>
-						</a>
-						
-					</div>
-					<div class="nav-top-right-icon">
-						<a href="">
-<div class="icon-img fa fa-graduation-cap"></div>
-						<div class="icon-text3"><span href="#/skills">Skills</span></div>
-						</a>
-						
-					</div> -->
-					<div class="nav-top-right-icon">
-						<a href="#/skills">
-							<div class="icon-img fa fa-graduation-cap"></div>
-							<div class="icon-text2"><span>Skills</span></div>
-						</a>
-						
-					</div>							
-					<div class="nav-top-right-icon desktop">
-						<a href="#/resume">
-							<div class="icon-img fa fa-file-text-o"></div>
-							<div class="icon-text4"><span>Resume</span></div>
-						</a>
-					</div>
-					<div class="nav-top-right-icon tab">
-						<a href="../assets/AshwinAggarwal.pdf">
-							<div class="icon-img fa fa-file-text-o"></div>
-							<div class="icon-text4"><span>Resume</span></div>
-						</a>
-					</div>
-					<div class="nav-top-right-icon">
-						<a href="#/contact">
-							<div class="icon-img fa fa-paper-plane"></div>
-							<div class="icon-text5"><span>Contact Me</span></div>
-						</a>
-					</div>
-				</div>
-			</div>	
-		</nav>
-	</header>
-	<div class="main-body">
-		<div class="angular-starts-here" ng-view>
-			
-		</div>
-	</div>
-	<footer>
-		<div id="sclz">Let's socialize</div>
-		<div>
-			<ul class="social">
-				<a href="" title="">
-					<li class="social-icon lnkd fa fa-linkedin" data-toggle="tooltip" data-placement="top" title="Connect with me"></li>
-				</a>
-				<a href="" title="">
-					<li class="social-icon gh fa fa-github" data-toggle="tooltip" data-placement="top" title="Fork me"></li>
-				</a>
-				<a href="" title="">
-					<li class="social-icon gp fa fa-google-plus" data-toggle="tooltip" data-placement="top" title="Lets be friends"></li>
-				</a>					
-				<a href="" title="">
-					<li class="social-icon fb fa fa-facebook" data-toggle="tooltip" data-placement="top" title="Add me"></li>
-				</a>
-			</ul>
-		</div>
-	</footer>
-	<div id='resolution'>Best viewed in Firefox and Chrome at 1920 X 1080 resolution.</div>
-</body>
-</html>
+	});</script></body></html>
