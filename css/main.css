@@ -76,7 +76,7 @@
 	color:#fff;
 	overflow-x:hidden;
 	overflow-y:auto;
-	background: url(../img/bg_red.jpg) 50% 50% no-repeat fixed;
+	background: url(../images/bg_red.jpg) 50% 50% no-repeat fixed;
 	background-size: cover;
 }
 
@@ -218,6 +218,15 @@ div.fancy-select ul li:hover{
 	border-color: #f16828;
 }
 
+.submitLoader{
+	background:url('../images/716.GIF') no-repeat;
+	height:20px;
+	width:73px;
+	background-size:100% 100%;
+	display:none;
+	margin:0 auto;
+}
+
 /*Skills Page*/
 
 #skillspage{
@@ -313,7 +322,7 @@ div.fancy-select ul li:hover{
 }
 
 .html .icon{
-	background: url(../img/html.png) 0 0 no-repeat;
+	background: url(../images/html.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 45%;
 }
@@ -322,7 +331,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(65,155,216);
 }
 .css3 .icon{
-	background: url(../img/css.png) 0 0 no-repeat;
+	background: url(../images/css.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -331,7 +340,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(214,186,49);
 }
 .jss .icon{
-	background: url(../img/jss.png) 0 0 no-repeat;
+	background: url(../images/jss.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 42%;
 }
@@ -340,7 +349,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(241,218,78);
 }
 .oojs .icon{
-	background: url(../img/oopinjs.jpeg) 0 0 no-repeat;
+	background: url(../images/oopinjs.jpeg) 0 0 no-repeat;
 	background-position: center;
 	background-size: 45%;
 }
@@ -349,7 +358,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(44,44,44);
 }
 .json .icon{
-	background: url(../img/json.png) 0 0 no-repeat;
+	background: url(../images/json.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 45%;
 }
@@ -358,7 +367,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(255,102,0);
 }
 .xml .icon{
-	background: url(../img/xml.gif) 0 0 no-repeat;
+	background: url(../images/xml.gif) 0 0 no-repeat;
 	background-position: center;
 	background-size: 60%;
 }
@@ -367,7 +376,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(0,115,189);
 }
 .ajax .icon{
-	background: url(../img/ajax.gif) 0 0 no-repeat;
+	background: url(../images/ajax.gif) 0 0 no-repeat;
 	background-position: center;
 	background-size: 55%;
 }
@@ -377,7 +386,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(240,80,51);
 }
 .git .icon{
-	background: url(../img/git.png) 0 0 no-repeat;
+	background: url(../images/git.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 42%;
 }
@@ -387,13 +396,13 @@ div.fancy-select ul li:hover{
 	border-color: rgb(173,199,254);
 }
 .svn .icon{
-	background: url(../img/svn.png) 0 0 no-repeat;
+	background: url(../images/svn.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
 
 .mongodb .icon{
-	background: url(../img/mongodb.png) 0 0 no-repeat;
+	background: url(../images/mongodb.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 80%;
 }
@@ -402,7 +411,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(17,104,173);
 }
 .jq .icon{
-	background: url(../img/jquery.png) 0 0 no-repeat;
+	background: url(../images/jquery.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 45%;
 }
@@ -411,7 +420,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(250,165,35);
 }
 .jqui .icon{
-	background: url(../img/jqui.png) 0 0 no-repeat;
+	background: url(../images/jqui.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 60%;
 }
@@ -420,7 +429,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(0,100,255);
 }
 .prototype .icon{
-	background: url(../img/prototype.png) 0 0 no-repeat;
+	background: url(../images/prototype.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -429,7 +438,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(184,41,52);
 }
 .anglr .icon{
-	background: url(../img/angularjs.png) 0 0 no-repeat;
+	background: url(../images/angularjs.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -438,25 +447,25 @@ div.fancy-select ul li:hover{
 	border-color: rgb(87,55,134);
 }
 .bootstrp .icon{
-	background: url("../img/bootstrap.png") no-repeat scroll 50% 50% / 50% auto rgba(0, 0, 0, 0);
+	background: url("../images/bootstrap.png") no-repeat scroll 50% 50% / 50% auto rgba(0, 0, 0, 0);
 }
 
 .bkbn{
 	border-color: rgb(0,42,65);
 }
 .bkbn .icon{
-	background: url(../img/backbone.png) 0 0 no-repeat;
+	background: url(../images/backbone.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
 
 .nodejs .icon{
-	background: url("../img/node.png") no-repeat scroll 50% 25% / 50% auto rgba(0, 0, 0, 0);
+	background: url("../images/node.png") no-repeat scroll 50% 25% / 50% auto rgba(0, 0, 0, 0);
 	background-size: 70%;
 }
 
 .exprs .icon{
-	background: url(../img/express.png) 0 0 no-repeat;
+	background: url(../images/express.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -465,7 +474,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(0,113,185);
 }
 .VS .icon{
-	background: url(../img/VS.png) 0 0 no-repeat;
+	background: url(../images/VS.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -474,7 +483,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(37,0,68);
 }
 .eclipse .icon{
-	background: url(../img/eclipse.png) 0 0 no-repeat;
+	background: url(../images/eclipse.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 45%;
 }
@@ -483,7 +492,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(255,129,0);
 }
 .sublime .icon{
-	background: url(../img/sublime.svg) 0 0 no-repeat;
+	background: url(../images/sublime.svg) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -492,7 +501,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(98,208,44);
 }
 .npp .icon{
-	background: url(../img/npp.png) 0 0 no-repeat;
+	background: url(../images/npp.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -501,7 +510,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(246,136,37);
 }
 .firebug .icon{
-	background: url(../img/firebug.png) 0 0 no-repeat;
+	background: url(../images/firebug.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -510,7 +519,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(213,63,52);
 }
 .cdd .icon{
-	background: url(../img/cdd.png) 0 0 no-repeat;
+	background: url(../images/cdd.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -519,7 +528,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(251,169,25);
 }
 .grunt .icon{
-	background: url(../img/grunt.png) 0 0 no-repeat;
+	background: url(../images/grunt.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }
@@ -528,7 +537,7 @@ div.fancy-select ul li:hover{
 	border-color: rgb(43,175,43);
 }
 .bower .icon{
-	background: url(../img/bower.png) 0 0 no-repeat;
+	background: url(../images/bower.png) 0 0 no-repeat;
 	background-position: center;
 	background-size: 50%;
 }

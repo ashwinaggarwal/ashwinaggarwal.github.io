@@ -4,19 +4,19 @@ mysiteapp.config(['$routeProvider','$provide', '$httpProvider',function($routePr
 
 	$routeProvider
 	.when('/',{
-		templateUrl:'html/profile.html',
+		templateUrl:'views/profile.html',
 		controller:'profile'
 	})
 	.when('/skills',{
-		templateUrl:'html/skills.html',
+		templateUrl:'views/skills.html',
 		controller:'skills'
 	})
 	.when('/resume',{
-		templateUrl:'html/resume.html',
+		templateUrl:'views/resume.html',
 		controller:'resume'
 	})
 	.when('/contact',{
-		templateUrl:'html/contact.html',
+		templateUrl:'views/contact.html',
 		controller:'contact'
 	})
 	.otherwise({

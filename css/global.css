@@ -56,14 +56,6 @@ a:hover{
 }
 
 
-@-webkit-keyframes zoom2 {
-	0% 			{ transform: scale3d(1,1,1);}
-	20% 		{ transform: scale3d(1,1,1);}
-	40% 		{ transform: scale3d(1.2,1.2,1.2);}
-	60%			{ transform: scale3d(1,1,1);}
-	80%			{ transform: scale3d(1,1,1);}
-	100% 		{ transform: scale3d(1,1,1);}
-}
 
 @keyframes zoom3 {
 	0% 			{ transform: scale3d(1,1,1);}
@@ -74,14 +66,7 @@ a:hover{
 	100% 		{ transform: scale3d(1,1,1);}
 }
 
-@-webkit-keyframes zoom3 {
-	0% 			{ transform: scale3d(1,1,1);}
-	20% 		{ transform: scale3d(1,1,1);}
-	40% 		{ transform: scale3d(1,1,1);}
-	60%			{ transform: scale3d(1.2,1.2,1.2);}
-	80%			{ transform: scale3d(1,1,1);}
-	100% 		{ transform: scale3d(1,1,1);}
-}
+
 
 @keyframes zoom4 {
 	0% 			{ transform: scale3d(1,1,1);}
@@ -92,14 +77,7 @@ a:hover{
 	100% 		{ transform: scale3d(1,1,1);}
 }
 
-@-webkit-keyframes zoom4 {
-	0% 			{ transform: scale3d(1,1,1);}
-	20% 		{ transform: scale3d(1,1,1);}
-	40% 		{ transform: scale3d(1,1,1);}
-	60%			{ transform: scale3d(1,1,1);}
-	80%			{ transform: scale3d(1.2,1.2,1.2);}
-	100% 		{ transform: scale3d(1,1,1);}
-}
+
 
 .nav-top-right-icon a:focus,
 .nav-top-right-icon a:visited,
@@ -136,6 +114,10 @@ header{
 	top: 0;
 	z-index: 1;
 }
+/*nav{
+	height:50px;
+	box-shadow: 0 0 2px black;
+}*/
 
 nav>div{
 	margin: 0 20px;
@@ -179,7 +161,7 @@ header.fixed .nav-top-right-icon [class^="icon-text"]{
 	border: 1px solid white;
 	margin: 0 10px 0 40px;
 	position: relative;
-	background: url(../img/Ashwin.jpg) 0 0 no-repeat;
+	background: url(../images/Ashwin.jpg) 0 0 no-repeat;
 	background-size: 100%;
 }
 
@@ -366,7 +348,7 @@ footer #sclz{
 }
 }
 .snow{
-	background: url(../img/servicenow-icon.png) 0 0 no-repeat;
+	background: url(../images/servicenow-icon.png) 0 0 no-repeat;
 	background-size:70%;
 	background-position:center center;
 	border:1px solid #fff;
@@ -377,7 +359,7 @@ footer #sclz{
 	background-color:transparent;
 }
 .india{
-	background: url(../img/ashok.png) 0 0 no-repeat;
+	background: url(../images/ashok.png) 0 0 no-repeat;
 	width: 40px !important;
 	background-size:70%;
 	background-color:white;
@@ -385,7 +367,7 @@ footer #sclz{
 	border:1px solid #fff;
 }
 .india:hover{
-	background: url(../img/india.png) 0 0 no-repeat;
+	background: url(../images/india.png) 0 0 no-repeat;
 	background-size:100% 100%;
 	background-position:center center;
 }
